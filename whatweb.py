@@ -81,7 +81,7 @@ if __name__ == '__main__':
     threadnum = int(sys.argv[1])
     target_url = sys.argv[2]
 
-    f = open('/mycode/python/knownsec/wsl/whatweb/cms.txt')
+    f = open('./cms.txt')
     cms = f.readlines()
     threads = []
 
